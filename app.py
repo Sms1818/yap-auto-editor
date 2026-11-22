@@ -1,4 +1,5 @@
 import streamlit as st
+import sys
 import subprocess
 import json
 import shutil
@@ -67,7 +68,7 @@ if uploaded:
             st.write("Discovering potential moments...")
 
             result = subprocess.run([
-                "python", "-m", "yap_demo.cli",
+                sys.executable, "-m", "yap_demo.cli",
                 str(video_path), "--out", str(BASE),
                 "--model", "gpt-4o", "--language", "en"
             ], capture_output=True, text=True)
