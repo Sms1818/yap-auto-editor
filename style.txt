@@ -1,0 +1,99 @@
+<style>
+.stApp, [data-testid="stAppViewContainer"], [data-testid="stMain"] {
+    background: #0B0F0D !important;
+    color: #E5E7EB !important;
+}
+[data-testid="stHeader"] {
+    background: #0B0F0D !important;
+}
+.block-container {
+    max-width: 1200px;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+h1, h2, h3, h4 {
+    color: #F9FAFB !important;
+}
+p, label, [data-testid="stWidgetLabel"] p {
+    color: #D1D5DB !important;
+}
+[data-testid="stFileUploaderDropzone"] {
+    background: #151B17 !important;
+    border: 1px dashed #37483D !important;
+    border-radius: 12px !important;
+}
+[data-testid="stFileUploaderDropzone"] div,
+[data-testid="stFileUploaderDropzone"] span,
+[data-testid="stFileUploaderDropzone"] p {
+    color: #E5E7EB !important;
+}
+[data-testid="stFileUploaderDropzone"] button {
+    background: #1C2620 !important;
+    color: #22C55E !important;
+    border: 1px solid #37483D !important;
+}
+.stButton button, [data-testid="stDownloadButton"] button {
+    background: #16A34A !important;
+    color: #FFFFFF !important;
+    border: 1px solid #16A34A !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+.stButton button:hover, [data-testid="stDownloadButton"] button:hover {
+    background: #15803D !important;
+    border-color: #15803D !important;
+    color: #FFFFFF !important;
+}
+[data-testid="stMetric"] {
+    background: #151B17 !important;
+    border: 1px solid #26352B !important;
+    border-radius: 10px !important;
+    padding: 14px !important;
+}
+[data-testid="stMetricLabel"] p,
+[data-testid="stMetricValue"] div {
+    color: #E5E7EB !important;
+}
+[data-testid="stExpander"] {
+    background: #151B17 !important;
+    border: 1px solid #26352B !important;
+    border-radius: 10px !important;
+}
+hr {
+    border-color: #26352B !important;
+}
+[data-testid="stCaptionContainer"] p {
+    color: #9CA3AF !important;
+}
+
+/* Uniform Yap clip cards */
+[data-testid="column"] [data-testid="stVerticalBlockBorderWrapper"] {
+    min-height: 760px !important;
+    height: 760px !important;
+}
+[data-testid="column"] [data-testid="stVerticalBlockBorderWrapper"] > div {
+    height: 100% !important;
+}
+[data-testid="column"] [data-testid="stVerticalBlock"] {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+}
+[data-testid="column"] [data-testid="stVideo"] {
+    height: 360px !important;
+    min-height: 360px !important;
+}
+[data-testid="column"] [data-testid="stVideo"] video {
+    height: 360px !important;
+    width: 100% !important;
+    object-fit: contain !important;
+}
+[data-testid="column"] [data-testid="stDownloadButton"] {
+    margin-top: auto !important;
+    padding-top: 12px !important;
+}
+[data-testid="column"] [data-testid="stDownloadButton"] button {
+    width: 100% !important;
+}
+
+</style>
